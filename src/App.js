@@ -1,8 +1,8 @@
 import './App.css';
-import Events from './Events';
+import ArticleFileter from './components/ArticleFilter';
 
 const components = {
-  events: Events
+  events: ArticleFileter
 }
 
 function App({component,url}) {
